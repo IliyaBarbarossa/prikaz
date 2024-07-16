@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: prikaz
+  datasource:
+    url: jdbc:postgresql://localhost:5432/logpass?currentSchema=prikaz
+    username: melkii
+    password: postgres
+    driver-class-name: org.postgresql.Driver
